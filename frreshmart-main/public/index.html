@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script>
+
+
+		 function myFunction(){
+		  const mediaQuery = window.matchMedia('(max-width: 991px)');
+          if (mediaQuery.matches){
+          
+          var x = document.getElementById("search-form")
+
+          if(x.style.display == "block"){
+            x.style.display = "none";
+          }
+          else{
+            x.style.display = "block";
+          }
+        }
+	}
+	function togglefunction(){
+          var x = document.getElementById("nav");
+          if(x.style.display == "block"){
+            x.style.display = "none";
+          }
+          else{
+            x.style.display = "block";
+          }
+        }
+        function removetoggle(){
+          var x = document.getElementById("nav")
+          if(x.style.display == "block"){
+            x.style.display = "none";
+          }
+        }
+	</script>
+</head>
+<body>
+
+
+	<div id="header">
+		<span>FreshMart.com</span>
+		<nav class="navbar" id="navbar"> 
+			<a class="active" href="">home</a>
+			<a href=" ">Shop</a>
+			<a href=" ">Pages</a>
+			<a href=" ">Blog</a>
+			<a href=" ">Contact Us</a>
+		</nav>
+		<div class="icons">
+			<form action="" id="search-form">
+				<input type="search"placeholder="search your favourate items"name="" id="search-box"/>
+			</form>
+			
+		    <i class="fas fa-search" id="search-icon"  onclick="myFunction()" ></i>
+		    <i class="fas fa-bars" id="menubars" onclick="togglefunction()" onmouseleave="removetoggle()"></i>
+			<i href="" class="fas fa-shopping-cart"></i>
+
+
+		   
+		</div>
+		
+		
+	</div>
+
+<section id="banner">
+	<nav class="nav" id="nav"> 
+		<a class="active" href="">home</a>
+		<a href=" ">Shop</a>
+		<a href=" ">Pages</a>
+		<a href=" ">Blog</a>
+		<a href=" ">Contact Us</a>
+	</nav>
+
+
+<div id="container2">
+	<h4>welcome to freshmart.com</h4>
+	<hr>
+	<h3><span>COFFEE CREAM & CHOCOLATE</span></h3>
+	<h1>Girella Moto Cacao <br> Soft Sponge Cake</h1>
+	<button>SHOP NOW</button>
+</div>
+</section>
+
+
+<section style="overflow:hidden;">
+	<div id="container">
+		<div><img src="images/Assets-01.PNG"></div>
+		<div><img src="images/Assets-02.PNG"></div>
+		<div><img src="images/Assets-03.PNG"></div>
+	</div>
+</section>
+
+<section>
+	<div class="main-container">
+		<h4 class="title">Popular Categories</h4>
+		<p class="subtitle">Add Popular Categories to weekely lineups</p>
+		<div class="elements-container">
+			<div class="elements"><div><p>Fresh Vegetables<br><span>17 Products</span></p><button>Shop Now <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button></div><img class="zoom" src="images/Assets-05.PNG"></div>
+			<div class="elements"><div><p>Fresh Fruit<br><span>17 Products</span></p><button>Shop Now <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button></div><img class="zoom" src="images/Assets-05.PNG"></div>
+			<div class="elements none"><div><p>Fresh Cream & Custard<br><span>17 Products</span></p><button>Shop Now <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button></div><img class="zoom" src="images/Assets-06.PNG"></div>
+		</div>
+		<div class="elements-container">
+			<div class="elements none"><div><p>Fresh Salad and Dips<br><span>17 Products</span></p><button>Shop Now <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button></div><img class="zoom" src="images/Assets-07.PNG"></div>
+			<div class="elements none"><div><p>Baking & Cooking<br><span>17 Products</span></p><button>Shop Now <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button></div><img class="zoom" src="images/Assets-08.PNG"></div>
+			<div class="elements none"><div><p>Milk, Butter & Eggs<br><span>17 Products</span></p><button>Shop Now <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button></div><img class="zoom" src="images/Assets-07.PNG"></div>
+		</div>
+	</div>
+</section>
+
+
+<section>
+	<div class="main-container">
+	<div id="hd">
+		<h4 class="title" >Hot Deals</h4>
+		<p class="subtitle">Add Hot Deals to weekely lineups</p>
+
+		<div id="hd-container"><img src="images/Assets-10.PNG">
+		<h3><span>Studio Design<span></h3>
+		<h3><a href="">Madden By Steve Madden Cale 6</a></h3>
+		<img class="starcenter" src="images/Assets-46.PNG">
+		<h4 class="pricelg"><strike> €18.90 </strike><span> €34.21 </span><p>-5%</p></h4>
+		<p>Availibility:<span>300 In Stock</span></p>
+	</div>
+		
+	</div>
+	<div id="na">
+		<div>
+		<h4 class="title">New Arrivals</h4>
+		<p class="subtitle">Add New Products to weekely lineups</p>
+        <div>
+        	
+       <div id="na-container">
+       <div><img src="images/Assets-10.PNG" >
+		<h3><span>Studio Design</span></h3>
+		<h3><a href="">Madden By Steve Madden Cale 6</a></h3>
+		<img class="starleft" src="images/Assets-46.PNG">
+		<h4 class="price"><strike> €18.90 </strike><span> €34.21 </span><p>-5%</p></h4>
+		</div>
+
+		<div ><img src="images/Assets-12.PNG" >
+		<h3><span>Studio Design</span></h3>
+		<h3><a href="">Madden By Steve Madden Cale 6</a></h3>
+		<img class="starleft" src="images/Assets-46.PNG">
+		<h4 class="price"><strike> €18.90 </strike><span> €34.21 </span><p>-5%</p></h4>
+		</div>
+
+		<div class="none"><img src="images/Assets-13.PNG" >
+		<h3><span>Studio Design</span></h3>
+		<h3 ><a href="">Madden By Steve Madden Cale 6</a></h3>
+		<img class="starleft" src="images/Assets-46.PNG">
+		<h4 class="price"><strike> €18.90 </strike><span> €34.21 </span><p>-5%</p></h4>
+		</div>
+      
+
+        <div class="none"><img src="images/Assets-15.PNG" >
+		<h3><span>Studio Design</span></h3>
+		<h3><a href="">Madden By Steve Madden Cale 6</a></h3>
+		<img class="starleft" src="images/Assets-46.PNG">
+		<h4 class="price"><strike> €18.90 </strike><span> €34.21 </span><p>-5%</p></h4>
+		</div>
+      
+      </div>
+      <div id="na-container">
+       <div class="none"><img src="images/Assets-15.PNG" >
+		<h3><span>Studio Design</span></h3>
+		<h3><a href="">Madden By Steve Madden Cale 6</a></h3>
+		<img class="starleft" src="images/Assets-46.PNG">
+		<h4 class="price"><strike> €18.90 </strike><span> €34.21 </span><p>-5%</p></h4>
+		</div>
+
+		<div class="none"><img src="images/Assets-16.PNG" >
+		<h3><span>Studio Design</span></h3>
+		<h3><a href="">Madden By Steve Madden Cale 6</a></h3>
+		<img class="starleft" src="images/Assets-46.PNG">
+		<h4 class="price"><strike> €18.90 </strike><span> €34.21 </span><p>-5%</p></h4>
+		</div>
+
+		<div class="none"><img src="images/Assets-13.PNG" >
+		<h3><span>Studio Design</span></h3>
+		<h3><a href="">Madden By Steve Madden Cale 6</a></h3>
+		<img class="starleft" src="images/Assets-46.PNG">
+		<h4 class="price"><strike> €18.90 </strike><span> €34.21 </span><p>-5%</p></h4>
+		</div>
+      
+
+        <div class="none"><img src="images/Assets-18.PNG" >
+		<h3><span>Studio Design</span></h3>
+		<h3><a href="">Madden By Steve Madden Cale 6</a></h3>
+		<img class="starleft" src="images/Assets-46.PNG">
+		<h4 class="price"><strike> €18.90 </strike><span> €34.21 </span><p>-5%</p></h4>
+		</div>
+       
+       </div>
+
+</div>
+</section>
+
+<section style="clear:both;" id="test">
+	<h4 class="title" style="margin-left:4%">Client Testimonials</h4>
+	<p class="subtitle" style="margin-left:4%">What Our Happy Customers Says!</p>
+<div  id="testimonial">
+	<div id="testimonial-container" >
+		<img class ="authorimg1" src="images/Assets-20.png">
+		<div id="inner-testimonial1">
+			    <div>
+			          
+			          <p class ="authortxt subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium, voluptas aperiam dicta tempora libero molestias magni odit perferendis,</p>
+			    </div>
+				<div>
+			          <img class="quote" src="images/Assets-22.PNG">
+			          <h3 class="subtitle" class="authorbio"><span class="title" >orando BLoom</span> <br>lorem123@gmail.com</h3>
+		        </div>
+		</div>
+		 <img class ="authorimg2 none" src="images/Assets-21.png">
+		<div id="inner-testimonial2" class="none">
+			    <div>
+			         
+			          <p class ="authortxt subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui aperiam commodi possimus voluptates, delectus voluptas ipsa corporis illo autem rem, </p>
+			    </div>
+				<div>
+			          <img class="quote" src="images/Assets-22.PNG">
+			          <h3 class="subtitle" class="authorbio"><span class="title" >orando BLoom</span> <br>lorem123@gmail.com</h3>
+		        </div>
+		</div>
+	</div>
+</div>
+</section>
+
+
+
+
+<section id="servicessection" style="clear:left;">
+	<div id="services">
+		<div><img src="images/Assets-23.png"><h3 >Free Shipping <br> <p class="subtitle" style="margin:0px">On all Orders above 75$</p></h3></div>
+		<div><img src="images/Assets-24.png"><h3 >Free Returns <br> <p class="subtitle" style="margin:0px">Returns are free within 9 days</p></h3></div>
+		<div><img src="images/Assets-26.png"><h3 >100% Payment Secure <br> <p class="subtitle" style="margin:0px">Your payment are safe with us.</p></h3></div>
+		<div><img src="images/Assets-26.png"><h3 >Support 24/7 <br> <p class="subtitle" style="margin:0px">Contact us 24 hours a day</p></h3></div>
+	</div>
+</section>
+
+<section>
+	<div class="main-container">
+		<h4 class="title">Featured Products</h4>
+		<p class="subtitle">Add Featured Products to weekely lineups</p>
+		<div class="elements-container1">
+			<div class="elements1"><img src="images/Assets-29.PNG"><div><p><span>Studio Design<br></span>New Balance Fresh</p><img class="starleft" src="images/Assets-46.PNG"><h4 class="price"><strike> €18.90 </strike><span> €34.21 </span></h4></div></div>
+			<div class="elements1"><img src="images/Assets-28.PNG"><div><p><span>Graphic Corner<br></span>New Balance Fresh</p><img class="starleft" src="images/Assets-46.PNG"><h4 class="price"><strike> €18.90 </strike><span> €34.21 </span></h4></div></div>
+			<div class="elements1 none"><img src="images/Assets-29.PNG"><div><p><span>Studio Design<br></span>New Balance Fresh</p><img class="starleft" src="images/Assets-46.PNG"><h4 class="price"><strike> €18.90 </strike><span> €34.21 </span></h4></div></div>
+			<div class="elements1 none"><img src="images/Assets-30.PNG"><div><p><span>Graphic Corner<br></span>New Balance Fresh</p><img class="starleft" src="images/Assets-46.PNG"><h4 class="price"><strike> €18.90 </strike><span> €34.21 </span></h4></div></div>
+		</div>
+		<div class="elements-container1">
+			<div class="elements1 none"><img src="images/Assets-31.PNG"><div><p><span>Studio Design<br></span>New Balance Fresh</p><img class="starleft" src="images/Assets-46.PNG"><h4 class="price"><strike> €18.90 </strike><span> €34.21 </span></h4></div></div>
+			<div class="elements1 none"><img src="images/Assets-32.PNG"><div><p><span>Studio Design<br></span>New Balance Fresh</p><img class="starleft" src="images/Assets-46.PNG"><h4 class="price"><strike> €18.90 </strike><span> €34.21 </span></h4></div></div>
+			<div class="elements1 none"><img src="images/Assets-33.PNG"><div><p><span>Graphic Corner<br></span>New Balance Fresh</p><img class="starleft" src="images/Assets-46.PNG"><h4 class="price"><strike> €18.90 </strike><span> €34.21 </span></h4></div></div>
+			<div class="elements1 none"><img src="images/Assets-34.PNG"><div><p><span>Studio Design<br></span>New Balance Fresh</p><img class="starleft" src="images/Assets-46.PNG"><h4 class="price"><strike> €18.90 </strike><span> €34.21 </span></h4></div></div>
+		</div>
+	</div>
+</section>
+
+<section  style="clear:both;">
+	<div id="ad">
+		<img src="images/Assets-35.PNG">
+	</div>
+</section>
+
+<section>
+	<div class="main-container">
+		<h4 class="title">Latest Blogs</h4>
+		<p class="subtitle">Present posts in a best way to highlight interesting moments of your blog.</p>
+		<div id="blog-container">
+			<div>
+				<button class="dark">Fashion</button>
+				<h3 class="title white">This is First Post For XipBlog</h3>
+				<p class="subtitle white">Lorem Ipsum is simply dummy text of the printing and typeSettings industry. Lorem Ipsum has been the industrys ...</p>
+				<a class="white" href="">Read More <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+			</div>
+			<div class="none">
+				<button  class="dark">Fashion</button>
+				<h3 class="title white">This is Second Post For XipBlog</h3>
+				<p class="subtitle white">Lorem Ipsum is simply dummy text of the printing and typeSettings industry. Lorem Ipsum has been the industrys ...</p>
+				<a class="white" href="">Read More <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+			</div>
+			<div class="none">
+				<button  class="dark">Fashion</button>
+				<h3 class="title white">This is Third Post For XipBlog</h3>
+				<p class="subtitle white">Lorem Ipsum is simply dummy text of the printing and typeSettings industry. Lorem Ipsum has been the industrys ...</p>
+				<a class="white" href="">Read More <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<section  style="clear:both;">
+	<div id="partners">
+		<div><a href=""><img src="images/Assets-36.PNG"></a></div>
+		<div class="none"><a href=""><img src="images/Assets-37.PNG"></a></div>
+		<div class="none"><a href=""><img src="images/Assets-38.PNG"></a></div>
+		<div class="none"><a href=""><img src="images/Assets-39.PNG"></a></div>
+		<div class="none"><a href=""><img src="images/Assets-40.PNG"></a></div>
+	</div>
+</section>
+
+<section style="clear:both;" id="footer">
+	<div id="footleft">
+		
+		
+        <h3 style="color:#3F4A4C"><img src="images/Assets-42.PNG">NEED HELP?</h3>
+        <h1>(+800) 345 678 <br>(+800) 123 456 </h1>
+		
+	
+        
+	</div>
+
+	<div id="footright">
+		<div><h2>Information</h2><div class="line"></div>
+			<h3 class="subtitle"><a href="">Delivery</a></h3>
+			<h3 class="subtitle"><a href="">About Us</a></h3>
+			<h3 class="subtitle"><a href="">Secure Payment</a></h3>
+			<h3 class="subtitle"><a href="">Contact Us</a></h3>
+			<h3 class="subtitle"><a href="">Sitemap</a></h3>
+			<h3 class="subtitle"><a href="">Stores</a></h3>
+		</div>
+<div><h2>Custom Links</h2><div class="line"></div>
+<h3 class="subtitle"><a href="">Legal Notice</a></h3>
+<h3 class="subtitle"><a href="">Prices Drop</a></h3>
+<h3 class="subtitle"><a href="">New Products</a></h3>
+<h3 class="subtitle"><a href="">Best Sales</a></h3>
+<h3 class="subtitle"><a href="">Login</a></h3>
+<h3 class="subtitle"><a href="">My Account</a></h3>
+</div>
+		<div id="newsletter"><h2>Newsletter</h2><div class="line"></div>
+							<p class="subtitle" style="text-align:left;">You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</p>
+			<input id="signupinput" type="" name="">
+			<button id="signup">Sign Up</button>
+			<a href=""><img class="downloadbtn" src="images/Assets-44.PNG"></a>
+			<a href=""><img class="downloadbtn" src="images/Assets-45.PNG"></a>
+
+
+		</div>
+		<div class="credit1">
+			&copy;copyright@2023 by <span>SAURABH KUMAR</span>
+		</div>
+	
+
+		
+	</div>
+</section>
+
+
+
+
+
+</body>
+</html>
